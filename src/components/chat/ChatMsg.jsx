@@ -4,22 +4,22 @@ import {Card,CardBody,Typography,Avatar} from "@material-tailwind/react";
 
 
 const ChatMsg = (props) =>{
-    const [userId, setUserId] = useState(1);
+    const [userId, setUserId] = useState(9);
 
 
 
     return(
 
-        <div className={(props.userId == userId)?"flex justify-end mt-4":"flex justify-start mt-4"}>
-            <Card className="w-2/4">
+        <div className={(props.userId == userId)?"flex justify-end mb-4":"flex justify-start mb-4"}>
+            <Card className="w-fit max-w-[calc(50%)]">
                 <CardBody>
                     <div className="flex items-center justify-between">
                         <div className="">
                             <Avatar src="profile.jpg"/>
                             <Typography variant="p" className="capitalize text-sm">subiksha</Typography>
                         </div>
-                        <div className="">
-                            <Typography variant="h6">hello everyone,good to see you all</Typography>
+                        <div className="ml-4">
+                            <Typography variant="h6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</Typography>
                             <Typography variant="p" className="text-sm uppercase text-end ">8:30 pm</Typography>
                         </div>
                     </div>

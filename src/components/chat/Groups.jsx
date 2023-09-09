@@ -14,8 +14,8 @@ const Groups = () =>{
                      <Avatar src="./profile.jpg "/>
                     </div>
                     <div className="">
-                        <Typography variant="h6" className="capitalize">2021 batch msc software systems</Typography>
-                        <Typography variant="p" className="capitalize">chiranjeevi is an idiot</Typography>
+                        <Typography variant="h6" className="text-sm capitalize">2021 batch msc software systems</Typography>
+                        <Typography variant="p" className="capitalize">chiranjeevi is an idiot😒</Typography>
                     </div>
                 </CardBody>
             </Card>
